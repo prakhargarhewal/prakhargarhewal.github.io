@@ -1,26 +1,42 @@
-name: Deploy Vite portfolio
+name: Deploy Vite Portfolio
 
+# Trigger workflow on pushes to main
 on:
   push:
-    branches: [ main ]   # change to master if your repo uses master
+    branches: [ main ]
+
+# Give Actions permission to push to gh-pages
+permissions:
+  contents: write
 
 jobs:
-  build-deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      # Checkout the repository
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
-      - name: Setup Node
+      # Setup Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
 
-      - run: npm install
-      - run: npm run build
+      # Install dependencies
+      - name: Install dependencies
+        run: npm install
 
-      - name: Deploy
+      # Build the Vite project
+      - name: Build
+        run: npm run build
+
+      # Deploy the dist folder to gh-pages
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+          # Optional: force push if gh-pages branch exists
+          force_orphan: true
