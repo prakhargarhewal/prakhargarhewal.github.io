@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => ({
   plugins: [
     react(),
     // inject CodePup badge (dev only); switch to componentTagger({ apply: "both" }) for prod too
-    componentTagger({ apply: "both" }),
+    componentTagger({ apply: "none" }),
   ].filter(Boolean),
   resolve: {
     alias: {
