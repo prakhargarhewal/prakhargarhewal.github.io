@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 210 40% 15%;
+    --card: 210 20% 98%;
+    --card-foreground: 210 40% 15%;
+    --popover: 210 20% 98%;
+    --popover-foreground: 210 40% 15%;
+    --primary: 210 85% 24%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 210 85% 24%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 210 25% 45%;
+    --accent: 195 100% 65%;
+    --accent-foreground: 210 85% 12%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 210 40% 88%;
+    --input: 210 40% 88%;
+    --ring: 195 100% 65%;
+    --radius: 0.375rem;
+  }
+
+  .dark {
+    --background: 210 50% 8%;
+    --foreground: 210 40% 95%;
+    --card: 210 50% 10%;
+    --card-foreground: 210 40% 95%;
+    --popover: 210 50% 10%;
+    --popover-foreground: 210 40% 95%;
+    --primary: 195 100% 65%;
+    --primary-foreground: 210 85% 12%;
+    --secondary: 210 40% 12%;
+    --secondary-foreground: 210 40% 85%;
+    --muted: 210 40% 12%;
+    --muted-foreground: 210 25% 65%;
+    --accent: 210 85% 24%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 210 40% 18%;
+    --input: 210 40% 18%;
+    --ring: 195 100% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "JetBrains Mono", ui-sans-serif, system-ui, sans-serif;
+  }
+}
