@@ -11,7 +11,7 @@ export function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Mobilia Unified",
+      title: "Mobifin Unified",
       description: "A comprehensive mobile E-Wallet application with bill payment services, QR code transactions, and crypto wallet functionality.",
       technologies: ["React Native", "JavaScript", "Firebase"],
       category: "fintech",
