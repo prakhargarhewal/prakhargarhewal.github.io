@@ -11,13 +11,13 @@ export function Experience() {
       location: "Bengaluru, India",
       responsibilities: [
         "Maintain and enhance an existing React Native/Expo mobile application for Android and iOS.",
-        "Investigate, debug, and resolve defects across UI, API integration, data flow, GPS/location, maps, and performance-related areas."
-        "Perform code reviews and pull-request reviews with focus on code quality, maintainability, consistency, and development standards." 
-        "Refactor existing code where required to improve readability, maintainability, and application stability."
-        "Provide technical guidance and training to team members when required and support knowledge sharing."
-        "Collaborate with management and client/customer stakeholders on requirements, technical discussions, progress, and issue resolution."
-        "Prepare monthly development reports and participate in working-hours and timesheet coordination."
-        "Leverage AI-assisted development for coding, debugging, refactoring, test-case creation, documentation, and code-review support."
+        "Investigate, debug, and resolve defects across UI, API integration, data flow, GPS/location, maps, and performance-related areas.",
+        "Perform code reviews and pull-request reviews with focus on code quality, maintainability, consistency, and development standards.",
+        "Refactor existing code where required to improve readability, maintainability, and application stability.",
+        "Provide technical guidance and training to team members when required and support knowledge sharing.",
+        "Collaborate with management and client/customer stakeholders on requirements, technical discussions, progress, and issue resolution.",
+        "Prepare monthly development reports and participate in working-hours and timesheet coordination.",
+        "Leverage AI-assisted development for coding, debugging, refactoring, test-case creation, documentation, and code-review support.",
       ]
     },
     {
