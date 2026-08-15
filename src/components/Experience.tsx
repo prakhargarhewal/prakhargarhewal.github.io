@@ -69,7 +69,7 @@ export function Experience() {
           Professional Experience
         </h2>
         <p className="text-muted-foreground max-w-3xl">
-          Over 5+ years of experience building cross-platform mobile applications with a focus on financial technology.
+          Over 6+ years of experience building cross-platform mobile applications with a focus on financial technology and Agronomy.
         </p>
       </div>
 
