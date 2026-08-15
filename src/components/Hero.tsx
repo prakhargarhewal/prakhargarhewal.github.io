@@ -18,12 +18,11 @@ export function Hero() {
             <span className="text-primary">Prakhar</span> Garhewal
           </h1>
           <h2 className="text-xl md:text-2xl font-medium text-muted-foreground mb-6">
-            Mobile App Developer | React Native | iOS | FinTech
+            Mobile App Developer | React Native | iOS | FinTech | Agronomy
           </h2>
           <p className="text-lg text-muted-foreground max-w-lg mb-8">
-            Organized, collaborative, and detail-oriented Mobile Application
-            Developer with 5+ years of experience in building cross-platform and
-            financial technology applications.
+            Application Development Module Lead and Mobile Application Developer with 6+ years of experience in maintaining, 
+            enhancing, and supporting cross-platform mobile applications for Android and iOS.
           </p>
           <div className="flex flex-wrap gap-4">
             <Button asChild>
@@ -82,7 +81,8 @@ export function Hero() {
                 <div className="font-mono text-sm text-muted-foreground mb-2">// developer.profile</div>
                 <div className="font-heading text-xl font-bold mb-4">Mobile App Developer</div>
                 <div className="space-y-2 text-sm">
-                  <div className="font-mono"><span className="text-primary">const</span> experience = <span className="text-accent">5+</span>;</div>
+                  <div className="font-mono"><span className="text-primary">const</span> experience = <span className="text-accent">6+</span>;</div>
+                  <div className="font-mono"><span className="text-primary">const</span> specialty = <span className="text-accent">'Agronomy'</span>;</div>
                   <div className="font-mono"><span className="text-primary">const</span> specialty = <span className="text-accent">'FinTech'</span>;</div>
                   <div className="font-mono"><span className="text-primary">const</span> location = <span className="text-accent">'Bengaluru'</span>;</div>
                 </div>
