@@ -15,7 +15,7 @@ export function Projects() {
       description: "Dijkstra is a mobile agricultural field management application that helps farmers and agronomists manage fields, crop records, scouting, sampling, GPS-based observations, and field activities on Android and iOS.",
       technologies: ["React Native", "JavaScript"],
       category: "Agronomy",
-      icon: <Agro className="h-5 w-5" />,
+      icon: <Smartphone className="h-5 w-5" />,
       features: [
         "Crop Records — Manage and track crop-related field records.",
         "Scouting — Record and monitor field scouting observations.",
@@ -88,7 +88,7 @@ export function Projects() {
 
   const categories = [
     { id: "all", label: "All Projects", icon: <Code className="h-4 w-4" /> },
-     { id: "agronomy", label: "Agronomy", icon: <Agro className="h-4 w-4" /> },
+    { id: "agronomy", label: "Agronomy", icon: <Smartphone className="h-4 w-4" /> },
     { id: "fintech", label: "FinTech", icon: <Wallet className="h-4 w-4" /> },
     { id: "education", label: "Education", icon: <Book className="h-4 w-4" /> },
     { id: "lifestyle", label: "Lifestyle", icon: <Smartphone className="h-4 w-4" /> }
