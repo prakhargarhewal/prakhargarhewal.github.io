@@ -13,7 +13,7 @@ export function Footer() {
               <span className="text-primary">Prakhar</span> Garhewal
             </div>
             <p className="text-sm text-muted-foreground max-w-md">
-              Mobile App Developer specializing in React Native and iOS development with a focus on financial technology solutions.
+              Mobile App Developer specializing in React Native and iOS development with a focus on Agronomy/Agriculture and financial technology solutions.
             </p>
           </div>
 
@@ -31,7 +31,7 @@ export function Footer() {
               </Button>
               <Button variant="ghost" size="icon" asChild>
                 <a
-                  href="https://github.com"
+                  href="https://github.com/prakhargarhewal"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="GitHub"
