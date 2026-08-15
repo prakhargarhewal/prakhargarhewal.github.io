@@ -8,6 +8,10 @@ export function About() {
       title: "Mobile Development",
       description: "Building cross-platform mobile applications using React Native and native iOS development.",
       icon: <Smartphone className="h-5 w-5" />
+    },{
+      title: "Agronomy",
+      description: "Supports agronomists and farmers in monitoring crop health, field conditions, scouting, sampling, and agricultural field activities.",
+      icon: <Smartphone className="h-5 w-5" />
     },
     {
       title: "FinTech Solutions",
@@ -33,7 +37,7 @@ export function About() {
           About Me
         </h2>
         <p className="text-muted-foreground max-w-3xl">
-          Mobile Application Developer with a focus on financial technology and cross-platform solutions.
+          Application Development Module Lead and Mobile Application Developer with 6+ years of experience in maintaining, enhancing, and supporting cross-platform mobile applications for Android and iOS.
         </p>
       </div>
 
@@ -44,17 +48,17 @@ export function About() {
           </CardHeader>
           <CardContent className="space-y-4">
             <p>
-              Organized, collaborative, and detail-oriented Mobile Application Developer with 5+ years of experience in building cross-platform and financial technology applications using React Native and iOS. Proficient in designing, developing, and deploying production-ready mobile applications with strong expertise in JavaScript, Swift, Firebase, and Batch.
+              Strong hands-on experience with React Native, JavaScript, Expo, React Context, REST APIs, Axios, Google Maps, GPS-based functionality, and mobile UI development, with experience across agriculture/agronomy and financial technology domains.
             </p>
             <p>
-              Skilled in implementing Content Management Systems, Push Notifications (Firebase Batch), In-App Purchases, and real-time features including Crashlytics and Analytics. Experienced in preparing and managing Apple Developer certificates for production, ensuring smooth deployment processes.
+              Experienced in working on existing production applications through enhancements, bug fixing, debugging, code review, pull-request review, refactoring, and quality improvements. Comfortable working within layered application architectures, collaborating with development, management, and client/customer stakeholders, and using AI-assisted development for coding, debugging, refactoring, test cases, documentation, and code review.
             </p>
             <p>
               Adept at working with Git-based version control systems such as GitHub, GitLab, and Bitbucket, and known for delivering high-quality, scalable solutions within deadlines. A quick learner and result-driven professional, committed to continuous growth and leveraging modern technologies to enhance mobile app experiences.
             </p>
             <div className="flex flex-wrap gap-2 pt-2">
               <Badge variant="secondary">React Native</Badge>
-              <Badge variant="secondary">iOS Development</Badge>
+               <Badge variant="secondary">Agronomy</Badge>
               <Badge variant="secondary">FinTech</Badge>
               <Badge variant="secondary">Cross-Platform</Badge>
               <Badge variant="secondary">Mobile UI/UX</Badge>
