@@ -9,8 +9,23 @@ export function Projects() {
   const [activeTab, setActiveTab] = useState("all");
 
   const projects = [
-    {
+     {
       id: 1,
+      title: "DIJKSTRA - Mobile Agricultural Field Management Application",
+      description: "Dijkstra is a mobile agricultural field management application that helps farmers and agronomists manage fields, crop records, scouting, sampling, GPS-based observations, and field activities on Android and iOS.",
+      technologies: ["React Native", "JavaScript"],
+      category: "Agronomy",
+      icon: <Wallet className="h-5 w-5" />,
+      features: [
+        "Crop Records — Manage and track crop-related field records.",
+        "Scouting — Record and monitor field scouting observations.",
+        "Sampling — Capture and manage field and tissue samples.",
+        "Tissue Sampling — Record and manage tissue sample information.",
+        "Weed, Insect & Disease Tracking — Record crop-related pest and disease observations."
+      ]
+    },
+    {
+      id: 2,
       title: "Mobifin Unified",
       description: "A comprehensive mobile E-Wallet application with bill payment services, QR code transactions, and crypto wallet functionality.",
       technologies: ["React Native", "JavaScript", "Firebase"],
@@ -25,7 +40,7 @@ export function Projects() {
       ]
     },
     {
-      id: 2,
+      id: 3,
       title: "Econote Mobile Application",
       description: "An e-book platform with integrated reading, writing, and sketching capabilities.",
       technologies: ["React Native", "JavaScript", "Firebase"],
@@ -40,7 +55,7 @@ export function Projects() {
       ]
     },
     {
-      id: 3,
+      id: 4,
       title: "MyRoomie for iOS",
       description: "An application for managing student records and providing accommodation services.",
       technologies: ["React Native", "JavaScript", "REST API"],
@@ -55,7 +70,7 @@ export function Projects() {
       ]
     },
     {
-      id: 4,
+      id: 5,
       title: "Pantry Cook Application",
       description: "A recipe search application that allows users to find recipes based on available ingredients.",
       technologies: ["React Native", "JavaScript", "Firebase"],
