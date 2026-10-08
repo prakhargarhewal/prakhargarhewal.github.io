@@ -10,14 +10,14 @@ export function Experience() {
       period: "Nov 2025 – Present",
       location: "Bengaluru, India",
       responsibilities: [
-        "Maintain and enhance an existing React Native/Expo mobile application for Android and iOS.",
-        "Investigate, debug, and resolve defects across UI, API integration, data flow, GPS/location, maps, and performance-related areas.",
-        "Perform code reviews and pull-request reviews with focus on code quality, maintainability, consistency, and development standards.",
-        "Refactor existing code where required to improve readability, maintainability, and application stability.",
-        "Provide technical guidance and training to team members when required and support knowledge sharing.",
+        "Lead a team of 5 developers in building and maintaining React Native and Expo apps across iOS and Android.",
+        "Resolved 30 plus critical production bugs around UI rendering, background sync, and GPS/map boundaries, reducing crash frequency by around 20 percentage.",
+        "Review 15 plus pull requests every week, ensuring clean component structure, standard lint rules, and less tech debt.",
+        "Refactored heavy legacy screens and map polygons, bringing screen load and render time down by 25 percent.",
+        "Mentored 3 junior developers, onboarding them to the code base and helping them pick up React Native and API debugging faster.",
         "Collaborate with management and client/customer stakeholders on requirements, technical discussions, progress, and issue resolution.",
         "Prepare monthly development reports and participate in working-hours and timesheet coordination.",
-        "Leverage AI-assisted development for coding, debugging, refactoring, test-case creation, documentation, and code-review support.",
+        "Integrated AI tools into daily routines (debugging, test-case writing), speeding up common development tasks by about 20–30 Percentage.",
       ]
     },
     {
